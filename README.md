@@ -35,3 +35,10 @@ add user to docker gp
 ```bash
 sudo usermod -aG docker $USER
 ```
+
+
+```bash
+docker image inspect repo   
+docker image history repo
+```
+
