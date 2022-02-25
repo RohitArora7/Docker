@@ -41,4 +41,7 @@ sudo usermod -aG docker $USER
 docker image inspect repo   
 docker image history repo
 ```
-
+```bash
+docker tag busybox rohitarora7/busybox
+docker push rohitarora7/busybox
+```
